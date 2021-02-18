@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d8cca98-83ae-491c-8b57-cfe79d714893" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest/sign/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/guest/sign/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest/sign/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/guest/sign/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DjangoProject$DjangoProject.coverage" NAME="DjangoProject Coverage Results" MODIFIED="1612709626451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DjangoProject$Test__sign_tests_IndexPageTest_test_index_page_renders_index_template.coverage" NAME="Test: sign.tests.IndexPageTest.test_index_page_renders_index_template Coverage Results" MODIFIED="1613662942567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DjangoProject$Test__sign_tests_LoginActionTest_test_login_action_success.coverage" NAME="Test: sign.tests.LoginActionTest.test_login_action_success Coverage Results" MODIFIED="1613665570308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DjangoProject$Test__sign_tests_LoginActionTest.coverage" NAME="Test: sign.tests.LoginActionTest Coverage Results" MODIFIED="1613665578251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -30,13 +39,27 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="DjangoProject" is-module-sdk="true" working-directory="$PROJECT_DIR$/guest">
+    <envs>
+      <env key="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="DjangoProject" />
+    <option name="myEnvs">
+      <map>
+        <entry key="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+      </map>
+    </option>
+    <option name="myWorkingDirectory" value="$PROJECT_DIR$/guest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="161">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -56,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guest/sign/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="627">
+              <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -66,10 +89,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -78,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/guest/sign/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -107,15 +139,16 @@
         <option value="$PROJECT_DIR$/guest/sign/__init__.py" />
         <option value="$PROJECT_DIR$/guest/guest/__init__.py" />
         <option value="$PROJECT_DIR$/guest/guest/settings.py" />
-        <option value="$PROJECT_DIR$/guest/sign/views.py" />
         <option value="$PROJECT_DIR$/guest/sign/templates/event_manage.html" />
         <option value="$PROJECT_DIR$/guest/sign/tests.py" />
+        <option value="$PROJECT_DIR$/guest/sign/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="width" value="1034" />
+    <option name="x" value="26" />
+    <option name="y" value="60" />
+    <option name="width" value="1278" />
     <option name="height" value="950" />
   </component>
   <component name="ProjectView">
@@ -140,6 +173,12 @@
               <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
               <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
               <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -152,16 +191,24 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guest/guest/settings.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Django Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="DjangoProject" is-module-sdk="true">
+        <envs>
+          <env key="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+        </envs>
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="DjangoProject" />
+        <option name="myEnvs">
+          <map>
+            <entry key="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+          </map>
+        </option>
       </console-settings>
     </option>
   </component>
@@ -181,6 +228,146 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: sign.tests.LoginActionTest">
+    <configuration name="Test: sign.tests.IndexPageTest.test_index_page_renders_index_template" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.IndexPageTest.test_index_page_renders_index_template" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: sign.tests.LoginActionTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.LoginActionTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: sign.tests.LoginActionTest.test_login_action_success" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.LoginActionTest.test_login_action_success" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DjangoProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DjangoProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="guest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: sign.tests.LoginActionTest" />
+        <item itemvalue="Django tests.Test: sign.tests.LoginActionTest.test_login_action_success" />
+        <item itemvalue="Django tests.Test: sign.tests.IndexPageTest.test_index_page_renders_index_template" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -204,7 +391,10 @@
       <workItem from="1612057683483" duration="3009000" />
       <workItem from="1612092970221" duration="8253000" />
       <workItem from="1612190845834" duration="4942000" />
-      <workItem from="1612622309266" duration="3076000" />
+      <workItem from="1612622309266" duration="3270000" />
+      <workItem from="1612708632041" duration="1009000" />
+      <workItem from="1612709663508" duration="4233000" />
+      <workItem from="1613658270694" duration="5937000" />
     </task>
     <task id="LOCAL-00001" summary="连接mysql数据库">
       <created>1612110658523</created>
@@ -227,37 +417,65 @@
       <option name="project" value="LOCAL" />
       <updated>1612197331037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="单元测试">
+      <created>1612628959636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612628959636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="单元测试">
+      <created>1612628967777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612628967777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__sign_tests_IndexPageTest_test_index_page_renders_index_template - 2021.02.18 at 22h 32m 53s.xml">
+      <configuration name="Test: sign.tests.IndexPageTest.test_index_page_renders_index_template" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_IndexPageTest_test_index_page_renders_index_template - 2021.02.18 at 23h 42m 25s.xml">
+      <configuration name="Test: sign.tests.IndexPageTest.test_index_page_renders_index_template" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_LoginActionTest_test_login_action_success - 2021.02.19 at 00h 26m 12s.xml">
+      <configuration name="Test: sign.tests.LoginActionTest.test_login_action_success" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_LoginActionTest - 2021.02.19 at 00h 26m 21s.xml">
+      <configuration name="Test: sign.tests.LoginActionTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38449000" />
+    <option name="totallyTimeSpent" value="49822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="0" width="827" height="760" extended-state="0" />
+    <frame x="21" y="48" width="1022" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33680105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24896266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.36942676" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.36827195" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.34844193" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" visible="true" weight="0.29936305" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" weight="0.29617834" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" weight="0.12898089" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.5" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.0373444" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
@@ -288,7 +506,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="连接mysql数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="连接mysql数据库" />
+    <MESSAGE value="单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/guest/guest/asgi.py">
@@ -298,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/62eda5a7-1481-441e-9386-7543eac4d3f4/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/62eda5a7-1481-441e-9386-7543eac4d3f4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/Python/Python36/Lib/site-packages/sign/__init__.py" />
@@ -318,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="118" column="15" lean-forward="true" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -372,6 +581,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python/Python36/Lib/site-packages/django/test/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guest/sign/templates/event_manage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -379,34 +595,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guest/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guest/sign/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/62eda5a7-1481-441e-9386-7543eac4d3f4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest/guest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guest/sign/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="627">
+          <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
